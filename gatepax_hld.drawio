@@ -1,9 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2024-01-01T07:11:12.546Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="22.1.16" etag="vOK4TyyXxmtQ-80xujhJ" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-01T09:03:28.289Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="KoeesEH8u6MIHtsFyTo_" version="22.1.16" type="github">
   <diagram name="Page-1" id="GN4L_P-XQtYwMBfuK-No">
-    <mxGraphModel>
+    <mxGraphModel dx="1193" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CYMah9tlUehEqxaHunJz-1" value="Consumer Application" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diagRev;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;" vertex="1" parent="1">
+          <mxGeometry x="20" y="90" width="170" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="CYMah9tlUehEqxaHunJz-2" value="Outlook" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CYMah9tlUehEqxaHunJz-3" value="Gmail/Mail recievers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CYMah9tlUehEqxaHunJz-4" value="Chat Apps&lt;br&gt;(Viber/whatsapp)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CYMah9tlUehEqxaHunJz-6" value="GatePax AI Microservices" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diagRev;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;" vertex="1" parent="1">
+          <mxGeometry x="250" y="90" width="210" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="CYMah9tlUehEqxaHunJz-9" value="Messenger Microservice" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CYMah9tlUehEqxaHunJz-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="CYMah9tlUehEqxaHunJz-10" target="CYMah9tlUehEqxaHunJz-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CYMah9tlUehEqxaHunJz-10" value="AI Microservice" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CYMah9tlUehEqxaHunJz-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.215;entryY=0.337;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CYMah9tlUehEqxaHunJz-1" target="CYMah9tlUehEqxaHunJz-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CYMah9tlUehEqxaHunJz-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.501;entryY=0.572;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CYMah9tlUehEqxaHunJz-9" target="CYMah9tlUehEqxaHunJz-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CYMah9tlUehEqxaHunJz-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.964;entryY=0.129;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CYMah9tlUehEqxaHunJz-9" target="CYMah9tlUehEqxaHunJz-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CYMah9tlUehEqxaHunJz-17" value="GatePax AI ML service" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=vert;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;" vertex="1" parent="1">
+          <mxGeometry x="500" y="90" width="320" height="390" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
