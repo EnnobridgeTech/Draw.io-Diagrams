@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-01T10:59:46.816Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="LXGZGRm_1zVnXhYger-8" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-01T11:04:02.217Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="mlhXb-f1JX3CT3UlhoxM" version="22.1.16" type="github">
   <diagram name="Page-1" id="GN4L_P-XQtYwMBfuK-No">
     <mxGraphModel dx="1193" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -45,42 +45,48 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CYMah9tlUehEqxaHunJz-17" value="GatePax AI ML service" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=vert;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;" vertex="1" parent="1">
-          <mxGeometry x="480" y="90" width="340" height="490" as="geometry" />
+          <mxGeometry x="570" y="105" width="340" height="490" as="geometry" />
         </mxCell>
         <mxCell id="CYMah9tlUehEqxaHunJz-19" value="Blob Storage" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="510" y="140" width="60" height="80" as="geometry" />
+          <mxGeometry x="480" y="110" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CYMah9tlUehEqxaHunJz-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.094;entryY=0.192;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CYMah9tlUehEqxaHunJz-10" target="CYMah9tlUehEqxaHunJz-17">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="CYMah9tlUehEqxaHunJz-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CYMah9tlUehEqxaHunJz-10" target="CYMah9tlUehEqxaHunJz-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="500" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="CYMah9tlUehEqxaHunJz-52" value="LLM Training data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CYMah9tlUehEqxaHunJz-20">
           <mxGeometry x="0.0415" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CYMah9tlUehEqxaHunJz-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CYMah9tlUehEqxaHunJz-34" target="CYMah9tlUehEqxaHunJz-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CYMah9tlUehEqxaHunJz-34" value="Prompt Engineering" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="690" y="140" width="80" height="80" as="geometry" />
+          <mxGeometry x="747" y="160" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CYMah9tlUehEqxaHunJz-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.732;entryY=0.079;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CYMah9tlUehEqxaHunJz-19" target="CYMah9tlUehEqxaHunJz-17">
+        <mxCell id="CYMah9tlUehEqxaHunJz-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.633;entryY=0.11;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CYMah9tlUehEqxaHunJz-19" target="CYMah9tlUehEqxaHunJz-17">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="540" y="240" />
-              <mxPoint x="590" y="240" />
-              <mxPoint x="590" y="130" />
+              <mxPoint x="530" y="240" />
+              <mxPoint x="600" y="240" />
+              <mxPoint x="600" y="130" />
               <mxPoint x="729" y="130" />
+              <mxPoint x="729" y="149" />
+              <mxPoint x="790" y="149" />
+              <mxPoint x="790" y="144" />
+              <mxPoint x="785" y="144" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="CYMah9tlUehEqxaHunJz-36" value="Indexed LLM dataset" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CYMah9tlUehEqxaHunJz-35">
           <mxGeometry x="0.3682" y="1" relative="1" as="geometry">
-            <mxPoint x="6" y="81" as="offset" />
+            <mxPoint x="-7" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CYMah9tlUehEqxaHunJz-37" value="Open AI model&lt;br&gt;(GPT 4 turbo)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="330" width="120" height="60" as="geometry" />
+          <mxGeometry x="727" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CYMah9tlUehEqxaHunJz-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CYMah9tlUehEqxaHunJz-38" target="CYMah9tlUehEqxaHunJz-37">
           <mxGeometry relative="1" as="geometry" />
@@ -90,13 +96,13 @@
         </mxCell>
         <mxCell id="CYMah9tlUehEqxaHunJz-46" value="Prompt Response" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CYMah9tlUehEqxaHunJz-45">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-20" as="offset" />
+            <mxPoint x="27" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CYMah9tlUehEqxaHunJz-38" value="Cognitive Search algorithm" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="295" width="90" height="80" as="geometry" />
+          <mxGeometry x="600" y="430" width="90" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CYMah9tlUehEqxaHunJz-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.287;entryY=0.418;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CYMah9tlUehEqxaHunJz-10" target="CYMah9tlUehEqxaHunJz-17">
+        <mxCell id="CYMah9tlUehEqxaHunJz-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.225;entryY=0.661;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CYMah9tlUehEqxaHunJz-10" target="CYMah9tlUehEqxaHunJz-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CYMah9tlUehEqxaHunJz-53" value="Prompt input" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CYMah9tlUehEqxaHunJz-51">
